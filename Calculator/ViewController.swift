@@ -247,6 +247,23 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func pingfang(sender: UIButton) {
+        var square:Double=0;
+        var square1:Int=0;
+        var square2:Double=0;
+        square=(screen.text! as NSString).doubleValue;
+        square2=square*square;
+        if(square2%1==0)
+        {
+            square1=Int(square2);
+            screen.text="\(square1)";
+        }
+        else
+        {
+            screen.text="\(square2)";
+        }
+        
+    }
     
     @IBAction func delet(sender: UIButton) {
         screen.text="0";
