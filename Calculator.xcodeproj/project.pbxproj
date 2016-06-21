@@ -14,6 +14,7 @@
 		C87054321CA957A500E178D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C87054301CA957A500E178D3 /* LaunchScreen.storyboard */; };
 		C870543D1CA957A600E178D3 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870543C1CA957A600E178D3 /* CalculatorTests.swift */; };
 		C87054481CA957A600E178D3 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87054471CA957A600E178D3 /* CalculatorUITests.swift */; };
+		C890F7D61CE4305F00069BEA /* Calculator.ico in Resources */ = {isa = PBXBuildFile; fileRef = C890F7D51CE4305F00069BEA /* Calculator.ico */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C87054431CA957A600E178D3 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C87054471CA957A600E178D3 /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		C87054491CA957A600E178D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C890F7D51CE4305F00069BEA /* Calculator.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = Calculator.ico; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		C87054261CA957A500E178D3 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				C890F7D51CE4305F00069BEA /* Calculator.ico */,
 				C87054271CA957A500E178D3 /* AppDelegate.swift */,
 				C87054291CA957A500E178D3 /* ViewController.swift */,
 				C870542B1CA957A500E178D3 /* Main.storyboard */,
@@ -231,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C87054321CA957A500E178D3 /* LaunchScreen.storyboard in Resources */,
+				C890F7D61CE4305F00069BEA /* Calculator.ico in Resources */,
 				C870542F1CA957A500E178D3 /* Assets.xcassets in Resources */,
 				C870542D1CA957A500E178D3 /* Main.storyboard in Resources */,
 			);
@@ -401,7 +405,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Calculator/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = imnu.edu.cn.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,7 +420,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Calculator/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = imnu.edu.cn.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
